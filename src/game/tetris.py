@@ -1,5 +1,6 @@
 import pygame
 import time
+import random
 import sys
 from blocks import get_random_block
 from settings import *
@@ -77,5 +78,5 @@ class Tetris:
                 self.current_block = self.next_block
                 self.next_block = get_random_block()
                 # 重置数据
-                self.current_block_start_col = secrets.randint(1, BLOCK_COL_NUM - 4)
+                self.current_block_start_col = random.randint(1, BLOCK_COL_NUM - 4)
                 self.current_block_start_row = -2
