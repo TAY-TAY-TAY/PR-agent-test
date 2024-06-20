@@ -1,0 +1,10 @@
+SCREEN_WIDTH, SCREEN_HEIGHT = 450, 500
+BG_COLOR = (220, 220, 220)  # 浅灰色背景
+BLOCK_COL_NUM = 15  # 每行的方格数
+SIZE = 20  # 每个小方格大小
+BLOCK_ROW_NUM = 25  # 每列的方个数
+BORDER_WIDTH = 4  # 游戏区边框宽度
+RED = (255, 100, 100)  # 柔和的红色，用于 GAME OVER 的字体颜色
+FONT_COLOR = (75, 75, 150)
+BLOCK_COLOR = (20, 128, 200)
+LINE_COLOR = (0, 0, 0)

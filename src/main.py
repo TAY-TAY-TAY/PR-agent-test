@@ -1,0 +1,5 @@
+from gui.tetris_gui import main
+    
+
+if __name__ == '__main__':
+    main()
